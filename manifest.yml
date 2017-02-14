@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: ajiravijana
+  host: ajiravijana
+  disk_quota: 1024M
+  services:
+  - ajiravijana-AdvancedMobileAccess
+  - ajiravijana-imfpush
+  - ajiravijana-cloudantNoSQLDB
